@@ -1,4 +1,4 @@
-# Anki Audio + Subtitle Extractor (AHK Script for MPC-HC)
+# Audio + Subtitle Extractor (AHK Script for MPC-HC)
 
 This AutoHotkey script helps you quickly create Anki cards by copying subtitle text and extracting audio to clipboard from the currently playing video in MPC-HC.
 Audio recording only works for Japanese if you want to change to other languages change: language:jpn
