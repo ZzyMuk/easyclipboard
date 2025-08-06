@@ -1,7 +1,6 @@
 # Audio + Subtitle Extractor (AHK Script for MPC-HC)
 
 This AutoHotkey script helps you quickly create Anki cards by copying subtitle text and extracting audio to clipboard from the currently playing video in MPC-HC.
-Audio recording only works for Japanese if you want to change to other languages change: language:jpn
 DelayMs adjustment is available in case your subtitles are off.
 ## 🔧 What It Does
  
@@ -70,6 +69,7 @@ XButton1::
 
 - This script uses MPC-HC's web interface to extract the current timestamp and video path.
 - Audio is extracted with `ffmpeg` using the Japanese audio stream if available.
+- Audio recording only works for Japanese if your video file has several audio streams change to desired language in: language:jpn
 
 
 ---
